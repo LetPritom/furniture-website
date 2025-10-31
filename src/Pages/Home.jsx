@@ -4,7 +4,8 @@ import ProductCard from "../Components/ProductCard";
 import useProductsData from "../Hooks/useProductsData";
 
 const Home = () => {
-  const {products , loading, error} =useProductsData();
+  // loading, error baki ekhno
+  const {products , } =useProductsData();
 
   const homeShowProducts = products.slice(0,6);
   
